@@ -1,3 +1,4 @@
+ HEAD
 # Resume Analyzer
 
 A simple, terminal-based tool for extracting, parsing, and scoring resumes from PDF, DOCX, or TXT files. It identifies key sections, extracts contact info using regex, and scores based on completeness, keyword matching, and skill relevance.
@@ -14,3 +15,15 @@ A simple, terminal-based tool for extracting, parsing, and scoring resumes from 
 1. Ensure Python 3.8+ is installed.
 2. Clone or download this project.
 3. Install dependencies:
+
+# AI Resume Screener
+
+Monorepo for a recruiter-facing AI resume screening SaaS app.
+
+## Structure
+
+- `apps/web` - Next.js frontend
+- `apps/api` - FastAPI backend
+- `infra` - optional deployment infrastructure
+- `scripts` - helper scripts
+ fe321a1 (initial commit: AI resume screener v2)
